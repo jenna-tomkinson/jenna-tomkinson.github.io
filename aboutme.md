@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: A computational biologist trying to contribute in a big world
+subtitle: A computational biologist exploring big questions in an even bigger world 🧬🔬✨
 ---
 
 <img src="/assets/img/Professional%20Headshot.png" alt="Photo of Jenna Tomkinson" class="aboutme-headshot">
