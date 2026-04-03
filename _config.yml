@@ -137,14 +137,14 @@ navbar-var-length: false
 page-col: "#FFFFFF" # White
 text-col: "#404040" # Dark Gray
 link-col: "#008AFF" # Bright Blue
-hover-col: "#0085A1" # Teal
+hover-col: "#C197D2" # Lavender Grey Purple
 navbar-col: "#E6D9F5" # Light Purple
 navbar-text-col: "#404040" # Dark Gray
 navbar-border-col: "#DDDDDD" # Light Gray
 footer-col: "#EAEAEA" # Light Gray
 footer-text-col: "#777777" # Medium Gray
 footer-link-col: "#404040" # Dark Gray
-footer-hover-col: "#0085A1" # Teal
+footer-hover-col: "#C197D2" # Lavender Grey Purple
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
