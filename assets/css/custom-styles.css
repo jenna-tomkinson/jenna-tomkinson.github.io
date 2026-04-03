@@ -1,0 +1,39 @@
+/* Explicit theme overrides to ensure hover colours match the site palette. */
+
+a:hover,
+a:focus,
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus,
+.navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus,
+.post-preview a:hover,
+.post-preview a:focus,
+.blog-tags a:hover,
+.blog-tags a:focus,
+#search-results-container a:hover,
+#search-results-container a:focus {
+  color: #C197D2;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #C197D2;
+}
+
+.pagination .page-item .page-link:hover,
+.pagination .page-item .page-link:focus,
+.pagination .page-item.active .page-link {
+  border-color: #C197D2;
+  background-color: #C197D2;
+}
+
+.aboutme-headshot {
+  width: min(320px, 100%);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 2rem;
+}

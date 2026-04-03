@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: A computational biologist trying to contribute in a big world
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+<img src="/assets/img/Professional%20Headshot.png" alt="Photo of Jenna Tomkinson" class="aboutme-headshot">
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+My primary scientific goal is to advance the discovery of innovative treatments for disease and cancer through image analysis and machine learning. 
 
-What else do you need?
+Biological images are more than visual representations. Microscopy images contain rich, quantitative information about cellular structures that can drive new insights and discoveries.
 
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+My current work advances the field of image analysis and profiling by focusing on the quality of the images and segmentations acquired to extract morphological profiles. By emphasizing quality control, the insights acquired from image datasets will become stronger.
