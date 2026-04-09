@@ -15,8 +15,8 @@
 - title: "Image Analysis Software"
   description: "Open-source platforms, libraries, and development workflows I use for microscopy image processing, segmentation, and exploration."
   items:
-    - name: "Open-source image analysis development"
-      url: "https://github.com/WayScience"
+    - name: "Cytomining ecosystem"
+      url: "https://github.com/cytomining"
     - name: "CellProfiler"
       url: "https://cellprofiler.org/"
     - name: "Fiji"
