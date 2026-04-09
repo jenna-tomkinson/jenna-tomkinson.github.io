@@ -17,8 +17,32 @@ subtitle: Quantitative Cell Biologist - CU Anschutz
 <section aria-labelledby="selected-publications-heading">
   <h2 id="selected-publications-heading" class="home-section-heading">Publications</h2>
 
+{% assign featured_publication = publications | where: "featured", true | first %}
+{% if featured_publication %}
+<article class="home-section-card home-featured-card">
+  <p class="home-featured-label">Featured Publication</p>
+  <h3>{{ featured_publication.title }}</h3>
+  {% if featured_publication.authors %}
+  <div class="home-section-meta home-section-authors">{{ featured_publication.authors | markdownify }}</div>
+  {% endif %}
+  {% if featured_publication.note %}
+  <p class="home-section-note">{{ featured_publication.note }}</p>
+  {% endif %}
+  {% if featured_publication.venue or featured_publication.year %}
+  <p class="home-section-submeta">
+    {% if featured_publication.venue %}{{ featured_publication.venue }}{% endif %}{% if featured_publication.venue and featured_publication.year %} · {% endif %}{% if featured_publication.year %}{{ featured_publication.year }}{% endif %}
+  </p>
+  {% endif %}
+  <p class="home-featured-summary">Quality control for single-cell image-based profiling.</p>
+  {% if featured_publication.link %}
+  <p><a href="{{ featured_publication.link }}">Read publication</a></p>
+  {% endif %}
+</article>
+{% endif %}
+
 <div class="home-section-list">
   {% for publication in publications %}
+  {% unless publication.featured %}
   <article class="home-section-card">
     <h3>{{ publication.title }}</h3>
     {% if publication.authors %}
@@ -39,6 +63,7 @@ subtitle: Quantitative Cell Biologist - CU Anschutz
     <p><a href="{{ publication.link }}">Read publication</a></p>
     {% endif %}
   </article>
+  {% endunless %}
   {% endfor %}
 </div>
 </section>

@@ -38,7 +38,13 @@
   year: 2025
   link: https://doi.org/10.1101/2025.10.23.684203
 - title: "Stellar quality control for single-cell image-based profiling with coSMicQC"
+  featured: true
   authors: "**Jenna Tomkinson**, Dave Bunten, Gregory P Way"
   venue: "bioRxiv (In review at Nature Methods)"
   year: 2025
   link: https://doi.org/10.1101/2025.10.14.682427
+- title: "Progress and new challenges in image-based profiling"
+  authors: "Erik Serrano, John Peters, Jesko Wagner, Rebecca E Graham, Zhenghao Chen, Brian Feng, Gisele Miranda, Alexandr A Kalinin, Loan Vulliard, **Jenna Tomkinson**, Cameron Mattson, Michael J Lippincott, Ziqi Kang, Divya Sitani, Dave Bunten, Srijit Seal, Neil O Carragher, Anne E Carpenter, Shantanu Singh, Paula A Marin Zapata, Juan C Caicedo, Gregory P Way"
+  venue: "Molecular Systems Biology"
+  year: 2026
+  link: https://doi.org/10.1038/s44320-026-00197-7
