@@ -3,3 +3,65 @@ layout: home
 title: Jenna Tomkinson
 subtitle: Quantitative Cell Biologist - CU Anschutz
 ---
+
+## Research Focus
+
+My work sits at the intersection of quantitative biology, image analysis, and machine learning. 
+I study how image quality, segmentation quality, and robust computational methods can strengthen biological discovery and improve our ability to identify meaningful cellular phenotypes.
+
+{% assign publications = site.data.publications %}
+{% if publications and publications.size > 0 %}
+## Selected Publications
+
+<div class="home-section-list">
+  {% for publication in publications %}
+  <article class="home-section-card">
+    <h3>{{ publication.title }}</h3>
+    {% if publication.authors %}
+    <div class="home-section-meta home-section-authors">{{ publication.authors | markdownify }}</div>
+    {% endif %}
+    {% if publication.note %}
+    <p class="home-section-note">{{ publication.note }}</p>
+    {% endif %}
+    {% if publication.venue or publication.year %}
+    <p class="home-section-submeta">
+      {% if publication.venue %}{{ publication.venue }}{% endif %}{% if publication.venue and publication.year %} · {% endif %}{% if publication.year %}{{ publication.year }}{% endif %}
+    </p>
+    {% endif %}
+    {% if publication.description %}
+    <p>{{ publication.description }}</p>
+    {% endif %}
+    {% if publication.link %}
+    <p><a href="{{ publication.link }}">Read publication</a></p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% assign speaking_experience = site.data.speaking_experience %}
+{% if speaking_experience and speaking_experience.size > 0 %}
+## Speaking Experience
+
+<div class="home-section-list">
+  {% for talk in speaking_experience %}
+  <article class="home-section-card">
+    <h3>{{ talk.title }}</h3>
+    {% if talk.event or talk.year %}
+    <p class="home-section-submeta">
+      {% if talk.event %}{{ talk.event }}{% endif %}{% if talk.event and talk.year %} · {% endif %}{% if talk.year %}{{ talk.year }}{% endif %}
+    </p>
+    {% endif %}
+    {% if talk.location %}
+    <p class="home-section-meta">{{ talk.location }}</p>
+    {% endif %}
+    {% if talk.description %}
+    <p>{{ talk.description }}</p>
+    {% endif %}
+    {% if talk.link %}
+    <p><a href="{{ talk.link }}">View talk</a></p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% endif %}

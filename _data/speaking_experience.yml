@@ -1,0 +1,27 @@
+# Jenna Tomkinson talks and presentations
+
+- title: "Toward generalizable single-cell phenotype prediction from nucleus morphology representations"
+  event: "Society of Biomolecular Imaging and Informatics"
+  year: 2023
+  location: "Boston, MA"
+  description: "Invited talk for JUMP consortium describing work on developing model to predict single-cell phenotypes from nuclear morphology from Mitocheck consortium applied to JUMP-pilot data."
+  link: "https://docs.google.com/presentation/d/1tNYMzgDRG7QBipLSyBpjnqJSvt7MbF0uXpTm5TIJfKs/edit?usp=sharing"
+- title: "High-content imaging and machine learning predicts fibrosis in cardiac fibroblasts"
+  event: "Society of Biomolecular Imaging and Informatics"
+  year: 2024
+  location: "Boston, MA"
+  description: "Accepted podium presentation describing how high-content imaging and machine learning can predict fibrosis in cardiac fibroblasts."
+  link: "https://docs.google.com/presentation/d/1BhWRIcoLwe0Dv8yynExFp1bm9q3eNoQ-7PS0i36R2Xw/edit?usp=sharing"
+- title: "Multiparametric data analysis, dimensionality & visualization methods"
+  event: "Society of Biomolecular Imaging and Informatics"
+  year: 2025
+  location: "Boston, MA"
+  description: "Invited talk educating attendees on methods for preprocessing single-cell image-based data, dimensionality reduction, and visualization techniques."
+  link: "https://docs.google.com/presentation/d/1O0mibuo7Nqlv7ZCLOrAvs8Bh-mYk3wvG0UihRKOr07c/edit?usp=sharing"
+- title: "Cell Painting and High-Content Imaging for Cellular Profiling"
+  event: "National Jewish Health"
+  year: 2025
+  location: "Denver, CO"
+  description: "Invited talk for workshop hosted by the Office of Research Innovation covering how Cell Painting and high-content imaging can be used to profile cellular phenotypes for drug discovery."
+  link: "https://docs.google.com/presentation/d/1UDOmL3EGwMt2g2WSqsOqrDfAGAPt0JDDAx6JpcgTdvg/edit?usp=sharing"
+
