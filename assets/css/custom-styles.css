@@ -38,6 +38,26 @@ footer a:focus {
   margin: 0 auto 2rem;
 }
 
+.home-intro {
+  margin: 0 0 2.75rem;
+}
+
+.home-section-heading {
+  margin: 0 0 0.9rem;
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  font-weight: 700;
+  line-height: 1.15;
+  color: #2f2f35;
+}
+
+.home-intro-blurb {
+  margin: 0 0 2.5rem;
+  max-width: 52rem;
+  font-size: clamp(1.15rem, 1.6vw, 1.4rem);
+  line-height: 1.75;
+  color: #4a4752;
+}
+
 .home-section-list {
   display: grid;
   gap: 1.5rem;
@@ -72,6 +92,11 @@ footer a:focus {
 
 .home-section-authors p {
   margin-bottom: 0.35rem;
+  font-weight: 400;
+}
+
+.home-section-authors strong {
+  font-weight: 700;
 }
 
 .home-section-note {

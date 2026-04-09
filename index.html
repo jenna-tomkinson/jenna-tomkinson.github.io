@@ -4,14 +4,18 @@ title: Jenna Tomkinson
 subtitle: Quantitative Cell Biologist - CU Anschutz
 ---
 
-## Research Focus
+<section class="home-intro" aria-labelledby="research-focus-heading">
+  <h2 id="research-focus-heading" class="home-section-heading">Research Focus</h2>
+  <p class="home-intro-blurb">
+    My work sits at the intersection of quantitative biology, image analysis, and machine learning.
+    I study how image quality, segmentation quality, and robust computational methods can strengthen biological discovery and improve our ability to identify meaningful cellular phenotypes.
+  </p>
+</section>
 
-My work sits at the intersection of quantitative biology, image analysis, and machine learning. 
-I study how image quality, segmentation quality, and robust computational methods can strengthen biological discovery and improve our ability to identify meaningful cellular phenotypes.
-
-{% assign publications = site.data.publications %}
+{% assign publications = site.data.publications | sort: "year" | reverse %}
 {% if publications and publications.size > 0 %}
-## Selected Publications
+<section aria-labelledby="selected-publications-heading">
+  <h2 id="selected-publications-heading" class="home-section-heading">Publications</h2>
 
 <div class="home-section-list">
   {% for publication in publications %}
@@ -37,11 +41,13 @@ I study how image quality, segmentation quality, and robust computational method
   </article>
   {% endfor %}
 </div>
+</section>
 {% endif %}
 
-{% assign speaking_experience = site.data.speaking_experience %}
+{% assign speaking_experience = site.data.speaking_experience | sort: "year" | reverse %}
 {% if speaking_experience and speaking_experience.size > 0 %}
-## Speaking Experience
+<section aria-labelledby="speaking-experience-heading">
+  <h2 id="speaking-experience-heading" class="home-section-heading">Presentations</h2>
 
 <div class="home-section-list">
   {% for talk in speaking_experience %}
@@ -64,4 +70,5 @@ I study how image quality, segmentation quality, and robust computational method
   </article>
   {% endfor %}
 </div>
+</section>
 {% endif %}
