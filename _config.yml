@@ -20,6 +20,9 @@ author: Jenna Tomkinson
 ###############################################
 
 navbar-links:
+  Publications: "/#selected-publications-heading"
+  Presentations: "/#speaking-experience-heading"
+  Skills: "/#technical-skills-heading"
   About Me: "aboutme"
   Blogs: "blogs"
 

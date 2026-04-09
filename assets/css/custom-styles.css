@@ -29,6 +29,10 @@ footer a:focus {
   background-color: #C197D2;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .aboutme-headshot {
   width: min(320px, 100%);
   aspect-ratio: 1 / 1;
@@ -48,6 +52,7 @@ footer a:focus {
   font-weight: 700;
   line-height: 1.15;
   color: #2f2f35;
+  scroll-margin-top: 6.5rem;
 }
 
 .home-intro-blurb {
@@ -58,10 +63,38 @@ footer a:focus {
   color: #4a4752;
 }
 
+.home-section-intro {
+  margin: 0 0 1.25rem;
+  max-width: 48rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #5c5866;
+}
+
 .home-section-list {
   display: grid;
   gap: 1.5rem;
   margin: 1.5rem 0 2.5rem;
+}
+
+.home-skills-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin: 1.5rem 0 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.home-skill-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.home-skill-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 6px;
+  background: linear-gradient(180deg, #c197d2 0%, #e6d9f5 100%);
 }
 
 .home-section-card {
@@ -78,6 +111,54 @@ footer a:focus {
 
 .home-section-card p:last-child {
   margin-bottom: 0;
+}
+
+.home-skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-skill-list li {
+  margin: 0;
+}
+
+.home-skill-description {
+  margin: 0.25rem 0 0;
+  color: #5c5866;
+  line-height: 1.65;
+}
+
+.home-skill-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #e5d8f3;
+  border-radius: 999px;
+  background: #f8f3fd;
+  color: #4a4752;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.home-skill-link::after {
+  content: "↗";
+  font-size: 0.82em;
+  opacity: 0.7;
+}
+
+.home-skill-link:hover,
+.home-skill-link:focus {
+  color: #4a4752;
+  background: #efe4fb;
+  box-shadow: 0 8px 18px rgba(64, 64, 64, 0.08);
+  transform: translateY(-1px);
 }
 
 .home-section-meta,

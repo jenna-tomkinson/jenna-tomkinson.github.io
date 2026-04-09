@@ -72,3 +72,29 @@ subtitle: Quantitative Cell Biologist - CU Anschutz
 </div>
 </section>
 {% endif %}
+
+<section aria-labelledby="technical-skills-heading">
+  <h2 id="technical-skills-heading" class="home-section-heading">Technical Skills</h2>
+  <p class="home-section-intro">
+    Programming languages, workflow tools, and open-source image analysis software I use regularly for my research and work in quantitative biology.
+  </p>
+
+  {% assign skills = site.data.skills %}
+  <div class="home-skills-grid">
+    {% for skill_group in skills %}
+    <article class="home-section-card home-skill-card">
+      <h3>{{ skill_group.title }}</h3>
+      {% if skill_group.description %}
+      <p class="home-skill-description">{{ skill_group.description }}</p>
+      {% endif %}
+      <ul class="home-skill-list">
+        {% for skill in skill_group.items %}
+        <li>
+          <a href="{{ skill.url }}" class="home-skill-link" target="_blank" rel="noopener">{{ skill.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+    {% endfor %}
+  </div>
+</section>
