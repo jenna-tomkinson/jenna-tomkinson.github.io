@@ -1,0 +1,30 @@
+- title: "Peter the Cell Painting Cell"
+  type: "Conference Sticker & Character Design"
+  event: "SBI2 creative materials"
+  image: "/assets/img/Peter Logo Website.png"
+  alt: "Peter the Cell Painting Cell character design"
+  summary: "A playful cell-painting-inspired character created to bring a visual identity to conference materials."
+  details:
+    - "Used as a recognizable motif for conference-facing visuals."
+    - "Designed to make computational biology feel approachable, memorable, and fun."
+    - "Balances scientific identity with a friendly illustration style."
+
+- title: "Way Lab Sticker 2023 - Shrimp"
+  type: "Lab Sticker Design"
+  event: "Way Lab creative materials"
+  image: "/assets/img/Way_Lab_Sticker_2023.png"
+  alt: "Way Lab sticker design from 2023"
+  summary: "A custom lab sticker design created to reflect the personality and visual identity of the Way Lab."
+  details:
+    - "Designed as a fun, shareable visual for lab community building."
+    - "Part of a growing collection of science-inspired creative work."
+
+- title: "Way Lab Sticker 2025 - Rubber Duck"
+  type: "Lab Sticker Design"
+  event: "Way Lab creative materials"
+  image: "/assets/img/Way_Lab_Sticker_2025.png"
+  alt: "Way Lab sticker design from 2025"
+  summary: "A newer sticker design of a rubber duck for the Way Lab that continues the playful, science-forward visual style."
+  details:
+    - "Created to give the lab a recognizable and personable visual presence."
+    - "Extends the portfolio of conference and lab-facing sticker work."

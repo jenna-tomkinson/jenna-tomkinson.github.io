@@ -23,6 +23,7 @@ navbar-links:
   Publications: "/#selected-publications-heading"
   Presentations: "/#speaking-experience-heading"
   Skills: "/#technical-skills-heading"
+  Portfolio: "portfolio"
   About Me: "aboutme"
   Blogs: "blogs"
 
